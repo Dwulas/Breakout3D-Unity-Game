@@ -17,6 +17,7 @@ public class GM : MonoBehaviour
     public GameObject deathParticles;
     public static GM instance = null;
 
+
     private GameObject clonePaddle;
 
     void Start()
@@ -39,9 +40,8 @@ public class GM : MonoBehaviour
     {
         if(bricks < 1)
         {
-            youWon.SetActive(true);
             Time.timeScale = .25f;
-            Invoke("Reset", resetDelay);
+            Invoke("LoadNextLevel", resetDelay);
         }
         if (lives < 1)
         {
@@ -51,11 +51,24 @@ public class GM : MonoBehaviour
         }
     }
 
-    void Reset()
+    public void LoadNextLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings-1)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            youWon.SetActive(true);
+            Destroy(GameObject.FindWithTag("Ball"));
+        }
+    }
+
+    public void Reset()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
-
+        SceneManager.LoadScene("Game");
     }
 
     public void LoseLife()
@@ -76,10 +89,5 @@ public class GM : MonoBehaviour
     {
         bricks--;
         CheckGameOver();
-    }
-
-    void Update()
-    {
-        
     }
 }
