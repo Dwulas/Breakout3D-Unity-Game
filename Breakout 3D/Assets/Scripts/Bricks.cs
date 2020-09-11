@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bricks : MonoBehaviour
 {
-    public GameObject brickParticle;
+    public GameObject brickParticle; 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
         Instantiate(brickParticle, transform.position, Quaternion.identity);
         GM.instance.DestroyBrick();
