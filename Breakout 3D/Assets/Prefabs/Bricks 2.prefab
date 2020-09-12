@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &1206684644487642186
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &1637604164654266662
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,6 +326,134 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
+--- !u!1 &4944471184412181347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744935716530440038}
+  - component: {fileID: 4635480273847873938}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &744935716530440038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944471184412181347}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.4960084, y: 2.8223848, z: -0.10738845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5512034108402410948}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &4635480273847873938
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944471184412181347}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e08908118dd9cfc40b69ebf1815d756d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5512034107329334559
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034107351137408
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034107421108357
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034107775004690
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034107852560100
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108029294875
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108180376974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108232172345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,6 +1325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108402410947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,6 +1369,7 @@ Transform:
   - {fileID: 1492048812017665123}
   - {fileID: 3669287234702699597}
   - {fileID: 8170478817673817520}
+  - {fileID: 744935716530440038}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1342,6 +1481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108761166820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,6 +1590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108888507875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,6 +1699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &5512034108951807002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,6 +1808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}
 --- !u!1 &8849712936432822740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,3 +1917,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brickParticle: {fileID: 9193518385662201232, guid: b471d8a02a9caa54aa15489557d081ee,
     type: 3}
+  dzwiek: {fileID: 0}

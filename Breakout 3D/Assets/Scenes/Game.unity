@@ -831,12 +831,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 1
-  bricks: 20
+  bricks: 14
   resetDelay: 1
   livesText: {fileID: 1415678211}
   gameOver: {fileID: 670565950}
   youWon: {fileID: 2073887675}
-  bricksPrefab: {fileID: 5512034108402410947, guid: c5b22ef7120664e4096fda4f32af7b40,
+  bricksPrefab: {fileID: 7032406461126194585, guid: 06a724714f5119248aced973b374529d,
     type: 3}
   paddle: {fileID: 2318767234985382906, guid: f0dd2c277a774594a9ab00fc7c0e6f2b, type: 3}
   deathParticles: {fileID: 9193518385662201232, guid: 1aa788562b50abb4b8f9cb1381ea7825,
